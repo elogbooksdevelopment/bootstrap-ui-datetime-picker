@@ -469,6 +469,10 @@ angular.module('ui.bootstrap.datetimepicker', ['ui.bootstrap.dateparser', 'ui.bo
                     evt.stopPropagation();
                 }
 				
+                if (opt === 'clear') {
+                    $scope.close(false);
+                }
+
                 var date = null;
                 var isNow = opt === 'now';
 

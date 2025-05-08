@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap-ui-datetime-picker",
+  "name": "vantify-bootstrap-ui-datetime-picker",
   "version": "2.6.4",
-  "url": "https://github.com/Gillardo/bootstrap-ui-datetime-picker",
+  "url": "https://github.com/elogbooksdevelopment/bootstrap-ui-datetime-picker",
   "authors": [
     "Gillardo <darren.gillard81@gmail.com>"
   ],
@@ -10,7 +10,7 @@
   "main": "dist/datetime-picker.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gillardo/bootstrap-ui-datetime-picker.git"
+    "url": "https://github.com/elogbooksdevelopment/bootstrap-ui-datetime-picker.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

@@ -1,6 +1,6 @@
 // https://github.com/Gillardo/bootstrap-ui-datetime-picker
 // Version: 2.6.4
-// Released: 2020-01-27 
+// Released: 2025-05-08 
 angular.module('ui.bootstrap.datetimepicker', ['ui.bootstrap.dateparser', 'ui.bootstrap.position'])
     .constant('uiDatetimePickerConfig', {
         dateFormat: 'yyyy-MM-dd HH:mm',
@@ -472,6 +472,10 @@ angular.module('ui.bootstrap.datetimepicker', ['ui.bootstrap.dateparser', 'ui.bo
                     evt.stopPropagation();
                 }
 				
+                if (opt === 'clear') {
+                    $scope.close(false);
+                }
+
                 var date = null;
                 var isNow = opt === 'now';
 
